@@ -25,7 +25,7 @@ h2{
 }
 
 .reprodutor {
-    background: radial-gradient(#211e24, #4f3341);
+    background: linear-gradient(#3b3b3b, #2b2b2b);
     padding: 2rem;
     border-radius: 2rem;
 }
