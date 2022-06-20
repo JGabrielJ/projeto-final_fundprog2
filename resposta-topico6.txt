@@ -1,0 +1,16 @@
+6) Explique, com suas próprias palavras, o que faz o seguinte trecho de código:
+
+const createSongList = () => {
+  const list = document.createElement("ol");
+  for (let i = 0; i < songs.length; i++) {
+    const item = document.createElement("li");
+    item.appendChild(document.createTextNode(songs[i].slice(0,-4)));
+    list.appendChild(item);
+  }
+  return list;
+};
+
+
+Resposta:
+"Esse trecho de código pega cada música presente nos arquivos do código e insere uma por uma
+no elemento 'li' para que o usuário consiga visualizar a lista de músicas disponíveis no site."
